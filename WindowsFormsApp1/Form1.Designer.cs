@@ -62,6 +62,7 @@
             // 
             this.txtacc.Location = new System.Drawing.Point(75, 41);
             this.txtacc.Name = "txtacc";
+            this.txtacc.PasswordChar = '*';
             this.txtacc.Size = new System.Drawing.Size(149, 22);
             this.txtacc.TabIndex = 2;
             // 
