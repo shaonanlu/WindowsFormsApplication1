@@ -19,12 +19,28 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            textBox1.Focus();
+            txtacc.Focus();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            if (驗證帳號密碼(txtacc.Text,txtpwd.Text))
+            {
+                /*新增一個MDI Child，登入介面需隱藏。
+                  
+                */
+            }
+        }
+
+        private bool 驗證帳號密碼(string text1, string text2)
+        {
+            return true;
         }
     }
 }
