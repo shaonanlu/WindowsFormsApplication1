@@ -22,13 +22,13 @@ namespace WindowsFormsApp1
             txtacc.Focus();
         }
 
-        private void Button2_Click(object sender, EventArgs e)
+        private void BtnCancel_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void BtnLogin_Click(object sender, EventArgs e)
         {
             if (驗證帳號密碼(txtacc.Text,txtpwd.Text))
             {
